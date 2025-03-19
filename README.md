@@ -4,7 +4,7 @@ An example of using `@clerk/nuxt` SDK when ssr is disabled.
 
 Configuration:
 
-- Added a plugin that waits for Clerk to be loaded first, blocking the rendering of pages and running middleware
+- Added a plugin that waits for Clerk to be loaded first, blocking the rendering of pages and running middleware until Clerk is loaded in the browser
 - Set `skipServerMiddleware` option to `false` since we don't need it at all for SPA
 
 ## Setup
